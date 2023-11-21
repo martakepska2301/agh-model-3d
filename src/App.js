@@ -6,6 +6,7 @@ import pin from "./images/pin.svg";
 import styled from "styled-components";
 import Home from "./Home";
 import Map from "./Map";
+import Visualization from "./Visualization";
 
 const Nav = styled.nav`
   margin: auto;
@@ -66,7 +67,7 @@ const App = () => (
         <Home />
       </Route>
       <Route path="/visualization">
-        <p>hejka</p>
+        <Visualization />
       </Route>
       <Route path="/map">
         <Map />
