@@ -3,7 +3,6 @@ import agh from "./images/agh_logo.png";
 import home from "./images/house.svg";
 import eye from "./images/eye.svg";
 import pin from "./images/pin.svg";
-import info from "./images/info.svg";
 import styled from "styled-components";
 import Home from "./Home";
 import Map from "./Map";
