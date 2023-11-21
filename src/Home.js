@@ -20,8 +20,14 @@ const Text = styled.p`
   max-width: 800px;
 `;
 
+const HedaderText = styled.div`
+  margin: auto;
+  font-size: 40px;
+  `;
+
 const Home = () => (
   <Container>
+    <HedaderText>Pomnik ks. bp. Albina Małysiaka</HedaderText>
     <Container>
       <Agh src={pomnik} />
     </Container>
