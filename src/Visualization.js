@@ -17,55 +17,65 @@ const Text = styled.p`
   font-size: 40px;
 `;
 
+const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
 
 const Visualization = () => {
   return (
     <>
       <Container>
-        <Text>
-          Cinema 4D
-        </Text>
-        <Canvas
-          style={{
-            height: "1000px",
-            width: "100vw",
-          }}
-        >
-          <ambientLight intensity={Math.PI / 4} />
-          <spotLight
-            position={[10, 10, 10]}
-            angle={0.15}
-            penumbra={1}
-            decay={0}
-            intensity={Math.PI}
-          />
-          <pointLight position={[10, 10, 10]} decay={0} intensity={Math.PI} />
-          <Pomnik position={[0, 2, 0]} />
-          {/* <PomnikDwa position={[-1.5, -0.33, 0]} rotation={[0, 750, 0]} /> */}
-          <OrbitControls />
-        </Canvas>{" "}
-        <Text>
-          Agisoft Metashape Professional
-        </Text>
-        <Canvas
-          style={{
-            height: "1000px",
-            width: "100vw",
-          }}
-        >
-          <ambientLight intensity={Math.PI / 4} />
-          <spotLight
-            position={[10, 10, 10]}
-            angle={0.15}
-            penumbra={1}
-            decay={0}
-            intensity={Math.PI}
-          />
-          <pointLight position={[10, 10, 10]} decay={0} intensity={Math.PI} />
-          {/* <Pomnik position={[1.5, 2, 0]} /> */}
-          <PomnikDwa position={[0, 0, 0]} rotation={[0, 1460, 0]} />
-          <OrbitControls />
-        </Canvas>
+        <Row>
+          <div>
+            <Text>
+              Cinema 4D
+            </Text>
+            <Canvas
+              style={{
+                height: "1000px",
+                width: "50vw",
+              }}
+            >
+              <ambientLight intensity={Math.PI / 4} />
+              <spotLight
+                position={[10, 10, 10]}
+                angle={0.15}
+                penumbra={1}
+                decay={0}
+                intensity={Math.PI}
+              />
+              <pointLight position={[10, 10, 10]} decay={0} intensity={Math.PI} />
+              <Pomnik position={[0, 2, 0]} />
+              {/* <PomnikDwa position={[-1.5, -0.33, 0]} rotation={[0, 750, 0]} /> */}
+              <OrbitControls />
+            </Canvas>{" "}
+          </div>
+          <div>
+            <Text>
+              Agisoft Metashape Professional
+            </Text>
+            <Canvas
+              style={{
+                height: "1000px",
+                width: "50vw",
+              }}
+            >
+              <ambientLight intensity={Math.PI / 4} />
+              <spotLight
+                position={[10, 10, 10]}
+                angle={0.15}
+                penumbra={1}
+                decay={0}
+                intensity={Math.PI}
+              />
+              <pointLight position={[10, 10, 10]} decay={0} intensity={Math.PI} />
+              {/* <Pomnik position={[1.5, 2, 0]} /> */}
+              <PomnikDwa position={[0, 0, 0]} rotation={[0, 1460, 0]} />
+              <OrbitControls />
+            </Canvas>
+          </div>
+        </Row>
       </Container>
       <Footer />
     </>
