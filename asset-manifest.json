@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/static/js/main.c5ba8fb3.js",
+    "static/js/787.87426028.chunk.js": "/static/js/787.87426028.chunk.js",
+    "static/media/pomnik.jpg": "/static/media/pomnik.5be79c938fafd581325e.jpg",
+    "static/media/agh_logo.png": "/static/media/agh_logo.055ef77c5025a0612e7e.png",
+    "static/media/dekor.svg": "/static/media/dekor.5f9da09ac8219141623f1ab68a641844.svg",
+    "index.html": "/index.html",
+    "static/media/eye.svg": "/static/media/eye.435abac1edb41fa4db9a6cd8ee1e6697.svg",
+    "static/media/pin.svg": "/static/media/pin.2d2f3b34edc431e17339512410734f8d.svg",
+    "static/media/house.svg": "/static/media/house.749514c101e61ef9edcd962bbbfdfe17.svg",
+    "main.c5ba8fb3.js.map": "/static/js/main.c5ba8fb3.js.map",
+    "787.87426028.chunk.js.map": "/static/js/787.87426028.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c5ba8fb3.js"
+  ]
+}
