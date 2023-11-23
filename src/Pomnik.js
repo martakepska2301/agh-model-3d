@@ -7,7 +7,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/pomnik.gltf')
+  const { nodes, materials } = useGLTF('/agh-model-3d/pomnik.gltf')
   return (
     <group scale={0.3} {...props} dispose={null}>
       <mesh geometry={nodes.A.geometry} material={materials['default']} />
