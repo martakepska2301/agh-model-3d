@@ -2,7 +2,7 @@
   "name": "agh-model-3d-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://martakepska2301.github.io/agh-model-3d/",
+  "homepage": "https://martakepska2301.github.io/",
   "dependencies": {
     "@react-three/drei": "^9.88.17",
     "@react-three/fiber": "^8.15.11",
